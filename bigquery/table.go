@@ -8,8 +8,7 @@ import (
 )
 
 // ImportClusteredTable demonstrates creating a table and define partitioning and clustering properties.
-func (bq *BigQuery) ImportClusteredTable() error {
-
+func (bq *BigQuery) CreateEventTable() error {
 	var err error
 
 	// define daily ingestion-based partitioning.
