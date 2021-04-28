@@ -10,9 +10,12 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-
+*.sum
 # Dependency directories (remove the comment below to include it)
 # vendor/
 .DS_Store
 .idea/
 /log_collector
+/log-collector
+/api
+/api/api
